@@ -1,13 +1,16 @@
 <?php
 
+
 include 'connect.php';
+
 session_start();
 
-// $user_id = $_SESSION['user_id'];
+$user_id = $_SESSION['user_id'];
 
-// if(!isset($user_id)){
-//    header('location:login.php');
-// }
+if (!isset($user_id)) {
+  header('location:login.php');
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -23,9 +26,12 @@ session_start();
   <title>NutriConnect</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  <link rel="stylesheet" href="..css/home.css">
-  <script src="https://kit.fontawesome.com/4801a7dc21.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <script src="https://kit.fontawesome.com/4801a7dc21.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/home.css">
+
 
 </head>
 
@@ -38,7 +44,7 @@ session_start();
     </div>
     <div class="navigation">
       <ul>
-        <li><a href="Home.html">Home</a></li>
+        <li><a href="home.php">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="Treatment1.html">Treatments</a></li>
         <li><a href="#">Donate</a></li>
