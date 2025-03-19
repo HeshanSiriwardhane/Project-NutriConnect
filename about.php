@@ -50,7 +50,7 @@ if (!isset($user_id)) {
                 <li><a href="donation.php">Food Donate</a></li>
                 <li><a href="money.php">Money Donate</a></li>
                 <li><a href="menu.php">Order</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="profile.php"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
             </ul>
         </div>
@@ -98,7 +98,7 @@ if (!isset($user_id)) {
                     poverty and giving children the opportunity to learn, grow, and dream without
                     limitations.With the support of generous individuals and organizations, we transform hunger into
                     hope, one meal at a time.</p>
-                <a href="contact.html" class="btn">Contact Us</a>
+                <a href="contact.php" class="btn">Contact Us</a>
             </div>
         </div>
         </div>
