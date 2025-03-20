@@ -57,6 +57,8 @@ if (isset($_POST['submit'])) {
    <!-- custom css file link  -->
    <link rel="stylesheet" href="./css/login.css">
    <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="./css/welcone.css">
+
 
    <script src="Script.js"></script>
 
