@@ -1,0 +1,13 @@
+:root{
+    --green:#58cadb;
+    --orange:#ff7800;
+    --black:#192a56;
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color:var(--black);
+ }

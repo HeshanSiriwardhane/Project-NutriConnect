@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* styles for landing page */
+.container1 {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.90)), url("../images/pic3.jpg");
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 90%;
+
+}
+
+.welcome-nav {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+
+}
+
+.welcome-nav .logo {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-nav .logo img {
+    width: 40px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+.welcome-nav .logo h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.nav-welcome ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-welcome ul li {
+    list-style: none;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.nav-welcome ul li a {
+    text-decoration: none;
+    border: 0.5px solid transparent;
+    font-size: 15px;
+    color: #fff;
+}
+
+.nav-welcome ul li a:hover {
+    border-bottom-color: #fff;
+    padding: 5px 0px;
+    transition: 0.5s ease;
+}
+
+.welcome-section {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0px 90px;
+}
+
+.welcome-section h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.welcome-section p {
+    color: #fff;
+    font-size: 15px;
+    margin: 50px 80px;
+    padding: 10px 15%;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.welcome-section .btn1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    display: inline-block;
+    background-color: #F47920;
+    padding: 12px 25px;
+}
+
+.welcome-section .btn1 a:hover {
+    box-shadow: 0 0 10px #F47920;
+
+}
+
+/* styles for Signup page */
+.container2 {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.80)), url("../images/pic3.jpg");
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 90%;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wording {
+    width: 420px;
+    line-height: 2rem; 
+}
+
+.wording h2 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.wording p{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.signup-form {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    margin-left: 100px;
+    padding: 30px 20px;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-title {
+    color: #021526;
+    text-align: center;
+    margin: 0 0 8px;
+}
+
+.form-subtitle {
+    font-size: 13px;
+    color: #4b5563;
+    text-align: center;
+    margin: 0;
+}
+
+.form-header i {
+    color: #F47920;
+    padding-top: 10px;
+}
+
+.form-field {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+.form-input {
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    color: #b2b2b2;
+    padding: 13px 15px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: #F47920;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 0;
+    text-align: center;
+    width: 230px;
+    max-width: 100%;
+    margin: 15px auto 0;
+    display: block;
+}
+
+.acc{
+    text-align: center;
+    padding-top: 8px;
+    font-size: smaller;
+    color: #4e4d4d;
+}
+
+
+
+@keyframes bgChange {
+    0% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(pic9.jpg);
+    }
+    25% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(pic4.jpg);
+    }
+    45% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(pic8.jpg);
+    }
+    50% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(pic5.jpg);
+    }
+    70%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.80)), url(pic6.jpg);
+    }
+    
+}

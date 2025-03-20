@@ -1,0 +1,64 @@
+.sch-container{
+    /* background:linear-gradient(45deg, rgb(162, 138, 185), rgb(222, 223, 193)); */
+    padding:15px 9%;
+    padding-bottom: 10px;
+}
+
+.sch-container .sch-heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#878181;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+}
+
+.sch-container .sch-box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.sch-container .sch-box-container .sch-box{
+    box-shadow: 0 5px 10px #00000033;
+    border-radius: 5px;
+    background: #1B515E;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.sch-container .sch-box-container .sch-box h3{
+    color:#ffffff;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.sch-container .sch-box-container .sch-box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.sch-container .sch-box-container .sch-box .sch-btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#F47920;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.sch-container .sch-box-container .sch-box .sch-btn:hover{
+    letter-spacing: 1px;
+}
+
+.sch-container .sch-box-container .sch-box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .sch-container{
+        padding:20px;
+    }
+}

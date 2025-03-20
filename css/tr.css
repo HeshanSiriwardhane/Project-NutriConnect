@@ -1,0 +1,29 @@
+.home3{
+    margin:0 auto;
+    margin-top: 9rem;
+    width: 95%;
+    border-radius: 1rem;
+    background:linear-gradient(rgba(50, 49, 49, 0.7),rgba(17,17,17,.7)), url(../img/tr.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 60vh;
+    display:flex;
+    align-items:center;
+    /* justify-content: center; */
+    padding-bottom: 5rem;
+}
+.home3 .contentts{
+    text-align:left;
+}
+.contentts span{
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: .1rem white;
+    font-size: 4vw;
+    display: block;
+}
+.contentts h3{
+    font-size: 6vw;
+    color:white;
+}
