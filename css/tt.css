@@ -1,0 +1,6 @@
+.headers .icons i:hover,
+.headers .icons a:hover{
+    background: #58cadb  ;
+    transform: rotate(360deg);
+}
+
