@@ -60,7 +60,7 @@ include 'connect.php';
 
                 <!--learn-more button-->
                 <div class="btn1">
-                    <a href="about.php">Learn More</a>
+                    <a href="login.php">Learn More</a>
                 </div>
             </div>
         </div>
