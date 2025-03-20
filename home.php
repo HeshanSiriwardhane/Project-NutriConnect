@@ -45,12 +45,13 @@ if (!isset($user_id)) {
     <div class="navigation">
       <ul>
         <li><a href="home.php">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="Treatment1.html">Treatments</a></li>
-        <li><a href="#">Donate</a></li>
-        <li><a href="#">Order</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
+        <li><a href="about.php">About Us</a></li>
+        <li><a href="Treatment.php">Treatments</a></li>
+        <li><a href="donation.php">Food Donate</a></li>
+        <li><a href="money.php">Money Donate</a></li>
+        <li><a href="menu.php">Order</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+        <li><a href="profile.php"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
       </ul>
     </div>
   </nav>
@@ -68,7 +69,7 @@ if (!isset($user_id)) {
     </p>
 
     <div class="home-btn">
-      <a href="#">Donate Now</a>
+      <a href="donation.php">Donate Now</a>
     </div>
   </section>
 
