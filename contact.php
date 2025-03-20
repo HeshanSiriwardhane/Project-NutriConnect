@@ -66,9 +66,10 @@ if (isset($_POST['send'])) {
             <div class="navigation">
                 <ul>
                     <li><a href="home.php">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li><a href="treatment.php">Treatments</a></li>
-                    <li><a href="donation.php">Donate</a></li>
+                    <li><a href="donation.php">Food Donate</a></li>
+                    <li><a href="money.php">Money Donate</a></li>
                     <li><a href="menu.php">Order</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="profile.php"><i class="fa-solid fa-circle-user fa-2x"></i></a></li>
@@ -149,7 +150,7 @@ if (isset($_POST['send'])) {
                         <div>
                             <span><i class="fa-solid fa-envelope"></i></span>
                             <a href="mailto:company@gmail.com">
-                                heshansiriwardhane@gmail.com</a>
+                            heshansiriwardhane@gmail.com</a>
                         </div>
                         <div>
                             <span><i class="fa-solid fa-phone"></i></span>
